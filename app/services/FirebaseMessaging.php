@@ -38,7 +38,8 @@ class FirebaseMessaging{
                 "title" => $this->title,
                 "body" => $this->body,
                 "android_channel_id"=> $channelId,
-                "sound"=> "Tri-tone"  
+                "sound"=> "Tri-tone",
+                "icon"=> "ic_launcher"  
             ],
             'data'=> $this->data,
             'priority'=> 'high'
