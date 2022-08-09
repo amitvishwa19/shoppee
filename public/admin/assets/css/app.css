@@ -1,0 +1,184 @@
+.border {
+  border: 1px solid grey;
+}
+
+.admin-sidebar-logo-title img {
+  margin-top: -10px;
+}
+.admin-sidebar-logo-title .title-text {
+  margin-top: 5px;
+  color: #8997bd;
+  font-size: 18px;
+}
+
+.swal2-cancel {
+  margin-right: 20px !important;
+}
+
+.swal2-actions .btn-danger:not(:disabled):not(.disabled):active {
+  margin-right: 20px !important;
+  outline: 0 !important;
+  border: none !important;
+}
+
+.swal2-actions .btn-danger:not(:disabled):not(.disabled):focus {
+  outline: 0 !important;
+}
+
+.ql-toolbar.ql-snow {
+  border: 1px solid #e3ebf6 !important;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.ql-container.ql-snow {
+  border: 1px solid #e3ebf6 !important;
+  border-radius: 0.25rem;
+  margin-top: 2PX;
+  min-height: 450px;
+}
+
+.bootstrap-tagsinput {
+  border: 1px solid #e3ebf6 !important;
+  border-radius: 0.25rem;
+  width: 100%;
+  border-top: none;
+  box-shadow: none;
+}
+.bootstrap-tagsinput input {
+  height: 26px;
+}
+.bootstrap-tagsinput .tag.label.label-info {
+  background-color: #12a4ed;
+  border: 1px solid #e3ebf6;
+  color: #fff !important;
+  border-radius: 4px;
+  cursor: default;
+  float: left;
+  margin-right: 5px;
+  padding: 0 5px;
+}
+.bootstrap-tagsinput .tag [data-role=remove] {
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+.app-setting .setting-options .card-body {
+  padding: 0 !important;
+}
+.app-setting .setting-options ul {
+  list-style-type: none;
+}
+.app-setting .setting-options ul li {
+  margin: 0 !important;
+  padding: 8px;
+}
+.app-setting .setting-options ul li i {
+  width: 24px !important;
+  height: 24px !important;
+  color: #071A50;
+}
+.app-setting .setting-options ul li svg {
+  margin-left: -25px;
+  margin-right: 15px;
+  width: 20px;
+  height: 20px;
+  color: #071A50;
+  fill: rgba(112, 129, 185, 0.12);
+}
+.app-setting .setting-options ul li a:hover {
+  color: #071A50;
+}
+.app-setting .setting-options ul li.active a {
+  color: #071A50;
+  font-weight: 700;
+}
+.modal-content .modal-header {
+  background-color: #1c2d41;
+}
+
+.modal-content .modal-header .modal-title {
+  color: #fff;
+  align-self: center;
+  font-weight: 500;
+  margin-top: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.avatar-preview {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.remove-image {
+  display: none;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  margin: 0;
+  overflow-x: hidden !important;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  background-color: #fff;
+  color: #303e67;
+  min-height: 100vh;
+  letter-spacing: 0.1px;
+  line-height: 1.5;
+  display: flex;
+  position: relative;
+}
+
+a {
+  color: #303e67;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.8em + 0.75rem + 2px);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.8;
+  color: #303e67;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #5d728c8a;
+  border-radius: 2px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+small, .small {
+  font-size: 86%;
+  font-weight: 500;
+}
+
+.nest-item-action {
+  margin-top: -37px !important;
+  position: fixed;
+  right: 15px;
+}
+.nest-item-action a {
+  font-weight: 500;
+}
+
+.dd-handle {
+  font-weight: 500 !important;
+}
+
+.item_actions a {
+  font-weight: 500;
+}
+
+.select2-container--default .select2-selection--multiple {
+  background-color: red;
+  border: 1px solid #aaa;
+  border-radius: 2px !important;
+  cursor: text;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+  padding: 3px 6px !important;
+}

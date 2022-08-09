@@ -1,0 +1,13 @@
+<script src="{{asset('public/client/js/jquery.js')}}"></script>
+<script src="{{asset('public/client/js/popper.min.js')}}"></script>
+<script src="{{asset('public/client/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('public/client/js/TweenMax.js')}}"></script>
+<script src="{{asset('public/client/js/jquery-ui.js')}}"></script>
+<script src="{{asset('public/client/js/jquery.fancybox.js')}}"></script>
+<script src="{{asset('public/client/js/owl.js')}}"></script>
+<script src="{{asset('public/client/js/mixitup.js')}}"></script>
+<script src="{{asset('public/client/js/appear.js')}}"></script>
+<script src="{{asset('public/client/js/wow.js')}}"></script>
+<script src="{{asset('public/client/js/jQuery.style.switcher.min.js')}}"></script>
+<script src="{{asset('public/client/js/jquery.easing.min.js')}}"></script>
+<script src="{{asset('public/client/js/custom-script.js')}}"></script>

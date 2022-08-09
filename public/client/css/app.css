@@ -1,0 +1,102 @@
+.border {
+  border: 1px solid grey;
+}
+
+.admin-sidebar-logo-title img {
+  margin-top: -10px;
+}
+.admin-sidebar-logo-title .title-text {
+  margin-top: 5px;
+  color: #8997bd;
+  font-size: 18px;
+}
+
+.swal2-cancel {
+  margin-right: 20px !important;
+}
+
+.swal2-actions .btn-danger:not(:disabled):not(.disabled):active {
+  margin-right: 20px !important;
+  outline: 0 !important;
+  border: none !important;
+}
+
+.swal2-actions .btn-danger:not(:disabled):not(.disabled):focus {
+  outline: 0 !important;
+}
+
+.ql-toolbar.ql-snow {
+  border: 1px solid #e3ebf6 !important;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.ql-container.ql-snow {
+  border: 1px solid #e3ebf6 !important;
+  border-radius: 0.25rem;
+  margin-top: 2PX;
+  min-height: 450px;
+}
+
+.bootstrap-tagsinput {
+  border: 1px solid #e3ebf6 !important;
+  border-radius: 0.25rem;
+  width: 100%;
+  border-top: none;
+  box-shadow: none;
+}
+.bootstrap-tagsinput input {
+  height: 26px;
+}
+.bootstrap-tagsinput .tag.label.label-info {
+  background-color: #12a4ed;
+  border: 1px solid #e3ebf6;
+  color: #fff !important;
+  border-radius: 4px;
+  cursor: default;
+  float: left;
+  margin-right: 5px;
+  padding: 0 5px;
+}
+.bootstrap-tagsinput .tag [data-role=remove] {
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+.app-setting .setting-wrapper {
+  min-height: 100vh;
+}
+.app-setting .setting-options .card-body {
+  min-height: 100vh;
+  padding: 0 !important;
+}
+.app-setting .setting-options ul {
+  list-style-type: none;
+}
+.app-setting .setting-options ul li {
+  margin: 0 !important;
+  padding: 8px;
+}
+.app-setting .setting-options ul li i {
+  width: 24px !important;
+  height: 24px !important;
+  color: #071A50;
+}
+.app-setting .setting-options ul li svg {
+  margin-left: -25px;
+  margin-right: 15px;
+  width: 20px;
+  height: 20px;
+  color: #071A50;
+  fill: rgba(112, 129, 185, 0.12);
+}
+.app-setting .setting-options ul li a:hover {
+  color: #071A50;
+}
+.app-setting .setting-options ul li.active a {
+  color: #071A50;
+  font-weight: 600;
+}
+.app-setting .setting-details .card-body {
+  min-height: 100vh;
+}

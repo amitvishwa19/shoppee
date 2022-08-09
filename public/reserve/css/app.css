@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+.dataTables_filter {
+  max-width: 50% !important;
+  float: right;
+}
+
+.dataTables_filter input {
+  border: 1px solid grey;
+  border-radius: 2px;
+  min-width: 100px;
+  margin-left: 10px;
+}
+
+.dataTables_length {
+  max-width: 50% !important;
+  float: left;
+}
+
+.dataTables_length select {
+  min-width: 100px;
+}
+
+.paginate_button {
+  margin-right: 20px;
+}
+
+.swal2-actions .btn-danger {
+  color: #fff;
+  background-color: #6e141d;
+  border-color: #6e141d;
+  margin-right: 10px;
+}
+
+ul {
+  list-style: none !important;
+}
+
+ul li {
+  list-style: none !important;
+}
+
+.dataTables_filter {
+  max-width: 50% !important;
+  float: right;
+}
+.dataTables_filter input {
+  border: 1px solid grey;
+  border-radius: 2px;
+  min-width: 100px;
+  margin-left: 10px;
+}
+
+.dataTables_length {
+  max-width: 50% !important;
+  float: left;
+}
+.dataTables_length select {
+  min-width: 100px;
+}
+
+.paginate_button {
+  margin-right: 20px;
+}
+
+.swal2-actions .btn-danger {
+  color: #fff;
+  background-color: #6e141d;
+  border-color: #6e141d;
+  margin-right: 10px;
+}
+
+ul {
+  list-style: none !important;
+}
+ul li {
+  list-style: none !important;
+}
+
+.horizontal-app-menu .header {
+  background-color: #1C3271 !important;
+}
+
+.page-container {
+  background-color: #1C3271 !important;
+}

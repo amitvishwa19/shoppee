@@ -1,0 +1,130 @@
+.border{
+    border: 1px solid grey;
+}
+
+.admin-sidebar-logo-title{
+
+
+    img{
+        margin-top: -10px;
+    }
+
+    .title-text{
+        margin-top: 5px;;
+        color: #8997bd;
+        font-size: 18px;
+    }
+}
+
+
+// Sweet Aleret display css
+.swal2-cancel{
+    margin-right: 20px !important;
+}
+.swal2-actions .btn-danger:not(:disabled):not(.disabled):active {
+    margin-right: 20px !important;
+    outline: 0 !important;
+    border: none !important;
+}
+.swal2-actions .btn-danger:not(:disabled):not(.disabled):focus {
+    outline: 0 !important;
+}
+
+
+//Post page quill editor styling
+.ql-toolbar.ql-snow{
+    border: 1px solid #e3ebf6 !important;
+    border-radius: .25rem;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+.ql-container.ql-snow{
+    border: 1px solid #e3ebf6 !important;
+    border-radius: .25rem;
+    margin-top: 2PX;
+    min-height: 450px;
+}
+
+//Tags input css
+.bootstrap-tagsinput{
+    border: 1px solid #e3ebf6 !important;
+    border-radius: .25rem;
+    width: 100%;
+    border-top: none;
+    box-shadow: none;
+
+    input{
+        height: 26px;
+    }
+
+    .tag.label.label-info{
+        background-color: #12a4ed;
+        border: 1px solid #e3ebf6;
+        color: #fff !important;
+        border-radius: 4px;
+        cursor: default;
+        float: left;
+        margin-right: 5px;
+        //margin-top: 5px;
+        padding: 0 5px;
+    }
+
+    .tag [data-role="remove"] {
+        margin-left: 2px;
+        cursor: pointer;
+    }
+}
+
+//App Settings page
+.app-setting{
+    .setting-wrapper{
+        min-height: 100vh;
+    }
+
+    .setting-options{
+        .card-body{
+            min-height: 100vh;
+            padding:0 !important;
+        }
+        ul{
+            list-style-type:none;
+            li{
+                margin: 0 !important;
+                padding:8px;
+                i{
+                    width: 24px !important;
+                    height: 24px !important;
+                    color: #071A50;
+
+                }
+                svg{
+                    margin-left: -25px;
+                    margin-right:15px;
+                    width: 20px;
+                    height: 20px;
+                    color: #071A50;
+                    fill: rgba(112, 129, 185, 0.12);
+                }
+
+
+
+                a:hover{
+                    color: #071A50;
+                }
+            }
+            li.active{
+                a{
+                    color: #071A50;
+                    font-weight: 600;
+                }
+            }
+        }
+
+    }
+
+    .setting-details{
+        .card-body{
+            min-height: 100vh;
+        }
+    }
+}

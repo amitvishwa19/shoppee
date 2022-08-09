@@ -1,0 +1,4 @@
+.setting-menu a.active{
+    color: rgba(20,46,113,var(--tw-text-opacity));
+    font-weight:500;
+}
