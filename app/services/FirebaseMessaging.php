@@ -39,6 +39,7 @@ class FirebaseMessaging{
                 "body" => $this->body,
                 "android_channel_id"=> $channelId,
                 "sound"=> "Tri-tone",
+                "image"=> "https://ashallendesign.ams3.digitaloceanspaces.com/rMbsGOyK6i1KjNkbXff8qLohzM1nWQA8HNGwHF0J.png",
                 "icon" =>"https://ashallendesign.ams3.digitaloceanspaces.com/rMbsGOyK6i1KjNkbXff8qLohzM1nWQA8HNGwHF0J.png",
                 "largeIcon"=> "https://ashallendesign.ams3.digitaloceanspaces.com/rMbsGOyK6i1KjNkbXff8qLohzM1nWQA8HNGwHF0J.png",
                 "badge"=> "1"
