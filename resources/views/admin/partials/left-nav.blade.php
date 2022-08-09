@@ -38,125 +38,35 @@
                 </a>
             </li>
             <li>
-                <a href="{{route('subscription.index')}}">
-                    <i data-feather="thumbs-up" class="align-self-center menu-icon"></i><span>Subscriptions</span>
+                <a href="">
+                     <i data-feather="grid" class="align-self-center menu-icon"></i><span>Sliders</span>
                 </a>
             </li>
-
             <li>
-                <a href="{{route('inquiry.index')}}">
-                    <i data-feather="zap" class="align-self-center menu-icon"></i><span>Inquiries</span>
+                <a href="{{route('product.index')}}">
+                     <i data-feather="server" class="align-self-center menu-icon"></i><span>Products</span>
                 </a>
             </li>
-            <!-- <li>
-                <a href="{{route('menu.index')}}">
-                    <i data-feather="menu" class="align-self-center menu-icon"></i><span>Menu</span>
-                </a>
-            </li> -->
             <li>
-                <a href="{{route('filemanager.index',['type'=>'all','id'=>0])}}">
-                    <i data-feather="grid" class="align-self-center menu-icon"></i><span>Files</span>
+                <a href="">
+                     <i data-feather="gift" class="align-self-center menu-icon"></i><span>Wishlists</span>
                 </a>
             </li>
-
-
-           
-            <hr class="hr-dashed hr-menu">
             <li>
-                <a href="{{route('devlearn.dashboard')}}">
-                    <i data-feather="book" class="align-self-center menu-icon"></i><span>Devlearn</span>
+                <a href="">
+                     <i data-feather="shopping-bag" class="align-self-center menu-icon"></i><span>Carts</span>
                 </a>
             </li>
-
-          
-
             <li>
-                <a href="javascript: void(0);"><i data-feather="shopping-cart" class="align-self-center menu-icon"></i><span>DevComm</span><span class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
-                <ul class="nav-second-level" aria-expanded="false">
-
-                    <li>
-                        <a href="">
-                            <i class="ti-control-record"></i>Sliders</a>
-                    </li>
-                    
-                    <li>
-                        <a href="{{route('product_category.index')}}">
-                            <i class="ti-control-record"></i>Categories</a>
-                    </li>
-                    <li>
-                        <a href="{{route('product.index')}}">
-                            <i class="ti-control-record"></i>Products</a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class="ti-control-record"></i>Wishlists</a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class="ti-control-record"></i>Carts</a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class="ti-control-record"></i>Orders</a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class="ti-control-record"></i>Shippings</a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class="ti-control-record"></i>Shipments</a>
-                    </li>
-
-                    <li>
-                        <a href="{{route('fcm')}}">
-                            <i class="ti-control-record"></i>Push Notification</a>
-                    </li>
-                   
-
-                </ul>
-            </li>
-
-            
-        
-
-            <hr class="hr-dashed hr-menu">
-
-            <li>
-                <a href="{{route('client.index')}}">
-                    <i data-feather="users" class="align-self-center menu-icon"></i><span>Clients</span>
+                <a href="">
+                     <i data-feather="archive" class="align-self-center menu-icon"></i><span>Orders</span>
                 </a>
             </li>
-            
             <li>
-                <a href="{{route('project.index')}}">
-                    <i data-feather="layers" class="align-self-center menu-icon"></i><span>Projects</span>
+                <a href="{{route('fcm')}}">
+                     <i data-feather="globe" class="align-self-center menu-icon"></i><span>Push Notification</span>
                 </a>
             </li>
-
-            <li>
-                <a href="{{route('task.index')}}">
-                    <i data-feather="check-square" class="align-self-center menu-icon"></i><span>Tasks</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="{{route('contact.index')}}">
-                    <i data-feather="user-check" class="align-self-center menu-icon"></i><span>Contacts</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="{{route('note.index')}}">
-                    <i data-feather="file-text" class="align-self-center menu-icon"></i><span>Notes</span>
-                </a>
-            </li>
-
-            
-
-            
-
-
 
 
             <hr class="hr-dashed hr-menu">
