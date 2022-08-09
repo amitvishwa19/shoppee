@@ -39,7 +39,9 @@ class FirebaseMessaging{
                 "body" => $this->body,
                 "android_channel_id"=> $channelId,
                 "sound"=> "Tri-tone",
-                "largeIcon"=> "ic_launcher"  
+                "icon" =>"https://ashallendesign.ams3.digitaloceanspaces.com/rMbsGOyK6i1KjNkbXff8qLohzM1nWQA8HNGwHF0J.png",
+                "largeIcon"=> "https://ashallendesign.ams3.digitaloceanspaces.com/rMbsGOyK6i1KjNkbXff8qLohzM1nWQA8HNGwHF0J.png",
+                "badge"=> "1"
             ],
             'data'=> $this->data,
             'priority'=> 'high'
