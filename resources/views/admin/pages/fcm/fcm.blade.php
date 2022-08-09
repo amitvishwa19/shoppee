@@ -45,7 +45,7 @@
                    
 
                     <div class="form-group">
-                        <label for="exampleInputEmail1"><b>Title</b></label>
+                        <label for="exampleInputEmail1"><b>Title (Title of the Message)</b></label>
                         <input type="text" class="form-control" name="title" value="" required>
                     </div>
 
