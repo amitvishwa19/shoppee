@@ -17,7 +17,7 @@ class FCMController extends Controller
 
     public function index()
     {
-        activity('Git Pull')->log('Git pull from github');
+        activity('FCM Notification')->log('Fcm notifications');
         // $notification = FCM::SendNotification(
             
         // );
