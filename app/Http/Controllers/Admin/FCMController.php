@@ -18,10 +18,10 @@ class FCMController extends Controller
     public function index()
     {
         activity('Git Pull')->log('Git pull from github');
-        $notification = FCM::SendNotification(
+        // $notification = FCM::SendNotification(
             
-        );
-        dd($notification);
+        // );
+        // dd($notification);
         return view('admin.pages.fcm.fcm');
     }
 
