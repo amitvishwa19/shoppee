@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Facades\Fcm;
 use App\Models\User;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
 use App\Services\FirebaseMessaging;
+use App\Http\Controllers\Controller;
 
 class FCMController extends Controller
 {
@@ -16,6 +17,11 @@ class FCMController extends Controller
 
     public function index()
     {
+        activity('Git Pull')->log('Git pull from github');
+        $notification = FCM::SendNotification(
+            
+        );
+        dd($notification);
         return view('admin.pages.fcm.fcm');
     }
 
