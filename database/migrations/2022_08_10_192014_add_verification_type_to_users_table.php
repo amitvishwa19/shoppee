@@ -15,6 +15,7 @@ class AddVerificationTypeToUsersTable extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             $table->enum('verification_type', ['email', 'mobile' ,'others'])->after('status')->default('email');
+            $table->string('verification_method')->after('verification_type')->nullable();
         });
     }
 
@@ -27,6 +28,7 @@ class AddVerificationTypeToUsersTable extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             $table->dropColumn('verification_type');
+            $table->dropColumn('verification_method');
         });
     }
 }

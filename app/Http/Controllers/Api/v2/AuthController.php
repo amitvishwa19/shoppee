@@ -121,11 +121,10 @@ class AuthController extends Controller
 
     public function firebaseLogin(Request $request)
     {
-        $user = User::where('email', $request->email)->first();
-        if($user){
-            Auth::login($user);    
-        }else{
-            $user = User::create([
+
+        $user = User::updateOrCreate(
+            ['email'=> $request->email],
+            [
                 'email' => $request->email,
                 'display_name' => $request->name,
                 'password' => null,
@@ -135,9 +134,28 @@ class AuthController extends Controller
                 'status' => true,
             ]);
 
-            Auth::login($user); 
+        Auth::login($user); 
+
+        // $user = User::where('email', $request->email)->first();
+        // if($user){
+        //     Auth::login($user);    
+        // }else{
+        //     $user = User::create([
+        //         'email' => $request->email,
+        //         'display_name' => $request->name,
+        //         'password' => null,
+        //         'avatar_url' => $request->avatar,
+        //         'type' => 'user',
+        //         'role' => 'user',
+        //         'status' => true,
+        //     ]);
+
+        //     Auth::login($user); 
             
-        }
+        // }
+
+
+        
         $token = JWTAuth::fromUser($user);
         $user = auth()->user();
         return response()->json(
