@@ -36,7 +36,9 @@ class User extends Authenticatable implements JWTSubject
         'display_name',
         'fcm_device_id',
         'latitude',
-        'longitude'
+        'longitude',
+        'verification_method',
+        'verification_type'
     ];
 
     /**
