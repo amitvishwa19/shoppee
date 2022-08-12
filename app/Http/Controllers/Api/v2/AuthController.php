@@ -132,6 +132,8 @@ class AuthController extends Controller
                 'type' => 'user',
                 'role' => 'user',
                 'status' => true,
+                'verification_type' => 'email',
+                'verification_method' => 'firebase',
             ]);
 
         Auth::login($user); 
