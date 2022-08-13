@@ -22,6 +22,8 @@ class UserResource extends JsonResource
             'avatar'=>$this->avatar_url,
             'type'=>$this->type,
             'role'=>$this->role,
+            'verification_type'=>$this->verification_type,
+            'verification_method'=>$this->verification_method,
         ];
     }
 }
