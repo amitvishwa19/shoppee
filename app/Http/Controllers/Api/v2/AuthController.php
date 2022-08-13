@@ -119,7 +119,7 @@ class AuthController extends Controller
     }  
 
 
-    public function firebaseLogin(Request $request)
+    public function firebaseLogin_email(Request $request)
     {
 
         $user = User::updateOrCreate(
@@ -138,26 +138,7 @@ class AuthController extends Controller
 
         Auth::login($user); 
 
-        // $user = User::where('email', $request->email)->first();
-        // if($user){
-        //     Auth::login($user);    
-        // }else{
-        //     $user = User::create([
-        //         'email' => $request->email,
-        //         'display_name' => $request->name,
-        //         'password' => null,
-        //         'avatar_url' => $request->avatar,
-        //         'type' => 'user',
-        //         'role' => 'user',
-        //         'status' => true,
-        //     ]);
-
-        //     Auth::login($user); 
-            
-        // }
-
-
-        
+       
         $token = JWTAuth::fromUser($user);
         $user = auth()->user();
         return response()->json(
@@ -168,6 +149,37 @@ class AuthController extends Controller
                 'user'=>new UserResource($user)
             ], 200
         );
+    }
+
+    public function firebaseLogin_mobile(Request $request){
+        $user = User::updateOrCreate(
+            ['mobile'=> $request->mobile],
+            [
+                'mobile' => $request->mobile,
+                'display_name' => $request->name,
+                'password' => null,
+                'avatar_url' => $request->avatar,
+                'type' => 'user',
+                'role' => 'user',
+                'status' => true,
+                'verification_type' => 'mobile',
+                'verification_method' => 'firebase',
+            ]);
+
+        Auth::login($user); 
+
+       
+        $token = JWTAuth::fromUser($user);
+        $user = auth()->user();
+        return response()->json(
+            [
+                'success' => true,
+                'message'=>'Login success',
+                'token'=>$token,
+                'user'=>new UserResource($user)
+            ], 200
+        );
+
     }
 
     public function add_fcm_id(Request $request){

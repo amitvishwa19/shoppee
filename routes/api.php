@@ -27,7 +27,8 @@ use App\Http\Controllers\Api\v2\grocery\WishlistController;
 Route::prefix('v2')->group(function(){
 
     Route::post('login',[AuthController::class,'login']);
-    Route::post('login/firebase',[AuthController::class,'firebaseLogin']);
+    Route::post('login/firebase/email',[AuthController::class,'firebaseLogin_email']);
+    Route::post('login/firebase/mobile',[AuthController::class,'firebaseLogin_mobile']);
     Route::post('register',[AuthController::class,'register']);
     Route::post('fcmid/add',[AuthController::class,'add_fcm_id']);
     
