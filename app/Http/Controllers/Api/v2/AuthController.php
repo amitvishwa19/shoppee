@@ -152,6 +152,7 @@ class AuthController extends Controller
     }
 
     public function firebaseLogin_mobile(Request $request){
+        return $request->all();
         $user = User::updateOrCreate(
             ['mobile'=> $request->mobile],
             [
